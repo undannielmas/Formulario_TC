@@ -58,7 +58,7 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="nacionalidad">Estado de Residencia:</label>
+                        <label for="estado">Estado de Residencia:</label>
                         <select class="custom-select mr-sm-2" name="estado" id="estado">
                             <option selected>Elegir respuesta...</option>
                             <option value="Aguascalientes">Aguascalientes</option>
@@ -170,12 +170,12 @@
                 <div class="form-group">
                     <label class="select" for="born-beneficiario">Fecha De Nacimiento:</label>
                     <input type="text" class="form-control" name="born-beneficiario" id="born-beneficiario"
-                        placeholder="DD/MM/AA">
+                        placeholder="Ejemplo '22 de Enero de 1999'">
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="nacionalidad">Nacionalidad:</label>
-                        <select class="custom-select mr-sm-2" name="nacionalidad" id="nacionalidad">
+                        <label for="nacionalidad-beneficiario">Nacionalidad:</label>
+                        <select class="custom-select mr-sm-2" name="nacionalidad-beneficiario" id="nacionalidad-beneficiario">
                             <option selected>Elegir respuesta...</option>
                             <option value="Mexicano">Mexicano</option>
                             <option value="Mexicana">Mexicana</option>
@@ -184,8 +184,8 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="nacionalidad">Estado de Residencia:</label>
-                        <select class="custom-select mr-sm-2" name="estado" id="estado">
+                        <label for="estado-beneficiario">Estado de Residencia:</label>
+                        <select class="custom-select mr-sm-2" name="estado-beneficiario" id="estado-beneficiario">
                             <option selected>Elegir respuesta...</option>
                             <option value="Aguascalientes">Aguascalientes</option>
                             <option value="Baja California">Baja California</option>
@@ -224,23 +224,23 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-3">
-                        <label for="calle">Calle:</label>
-                        <input type="text" class="form-control" name="calle" id="calle"
+                        <label for="calle-beneficiario">Calle:</label>
+                        <input type="text" class="form-control" name="calle-beneficiario" id="calle-beneficiario"
                             placeholder="Calle..." minlength="4" maxlength="30" size="10">
                     </div>
                     <div class="form-group col-md-3">
-                        <label for="numero">Numero:</label>
-                        <input type="text" class="form-control" name="numero" id="numero" placeholder="Numero..."
+                        <label for="numero-beneficiario">Numero:</label>
+                        <input type="text" class="form-control" name="numero-beneficiario" id="numero-beneficiario" placeholder="Numero..."
                             minlength="4" maxlength="14" size="10">
                     </div>
                     <div class="form-group col-md-3">
-                        <label for="colonia">Colonia:</label>
-                        <input type="text" class="form-control" name="colonia" id="colonia" placeholder="Colonia..."
+                        <label for="colonia-beneficiario">Colonia:</label>
+                        <input type="text" class="form-control" name="colonia-beneficiario" id="colonia-beneficiario" placeholder="Colonia..."
                             minlength="4" maxlength="50" size="10">
                     </div>
                     <div class="form-group col-md-3">
-                        <label for="rfc">Codigo Postal</label>
-                        <input type="text" class="form-control" name="cp" id="cp" placeholder="C.P"
+                        <label for="cp-beneficiario">Codigo Postal</label>
+                        <input type="text" class="form-control" name="cp-beneficiario" id="cp-beneficiario" placeholder="C.P"
                             minlength="1" maxlength="5" size="10" style="text-transform:uppercase">
                     </div>
                 </div>
