@@ -388,14 +388,6 @@
                         <p class="mensuals">Ver abajo la descripción para responder a esta pregunta</p>
                     </div>
                 </div>
-                <div id="nCuenta" style="display:none;">
-                </div>
-                <div id="nTargeta" style="display:;">
-                    <p><strong>Inversionista Calificado,</strong> a la persona que mantenga en promedio, durante el
-                        último año, inversiones en valores por un monto igual o mayor a 1'500,000 unidades de inversión
-                        o que haya obtenido en cada uno de los 2 últimos años, ingresos brutos anuales iguales o mayores
-                        a 500,000 unidades de inversión. Valor de la UDI Dic 2021 = 7.10</p>
-                </div>
                 <div id="submit">
                     <button type="submit" class="boton">Ver Contrato</button>
                 </div>

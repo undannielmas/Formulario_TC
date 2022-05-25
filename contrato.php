@@ -3,25 +3,7 @@
 if($_POST){
 
     $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $nacimiento = $_POST['born'];
-    $nacionalidad = $_POST['nacionalidad'];
-    $lugar_nacimiento = $_POST['nacimiento'];
-    $domicilio = $_POST['home'];
-    $ocupacion = $_POST['work'];
-    $curp = $_POST['curp'];
-    $rfc = $_POST['rfc'];
-    $estado_civil = $_POST['civil'];
-    $regimen_conyugal = $_POST['regimen'];
-    $testamento = $_POST['testamento'];
-    $nombre_beneficiario = $_POST['nombre-beneficiario'];
-    $nacimiento_beneficiario = $_POST['born-beneficiario'];
-    $nacionalidad_beneficiario = $_POST['nacionalidad-beneficiario'];
-    $lugar_nacimiento_beneficiario = $_POST['nacimiento-beneficiario'];
-    $curp_beneficiario = $_POST['curp-beneficiario'];
-    $rfc_beneficiario = $_POST['rfc-beneficiario'];
-    $home_beneficiario = $_POST['home-beneficiario'];
+
 
 }
 
